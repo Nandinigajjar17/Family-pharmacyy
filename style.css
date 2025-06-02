@@ -1,0 +1,429 @@
+body {
+    font-family: Inter, sans-serif !important;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    fill: #000;
+    padding: 9px 9px
+}
+
+header {
+    padding: 30px 0
+}
+
+nav {
+    justify-content: space-between
+}
+
+.section-1 {
+    padding: 210px 0 220px !important
+}
+
+.section-2,
+footer,
+nav {
+    background: #fff !important
+}
+
+.nav-item a {
+    font-size: 18px !important
+}
+
+.btn-1,
+.btn-2 {
+    font-size: 14px;
+    padding: 12px 22px
+}
+
+.sec-2-icons {
+    width: 18px
+}
+
+.btn-1:hover {
+    background-color: #298c85ad
+}
+
+:root {
+    --primary-color: #298C85;
+    --secondary: #F39A80;
+    --gray-text: #7A7A7A;
+    --text-normal: 18px;
+    --text_black: #0D0D0D
+}
+
+.black-text {
+    color: var(--text_black)
+}
+
+.black-txt-2 {
+    color: #000 !important
+}
+
+.regular-font {
+    font-size: var(--text-normal)
+}
+
+.bg-main {
+    background-color: var(--primary-color)
+}
+
+.secondary-color {
+    color: var(--secondary);
+    font-size: 24px;
+    font-weight: 700
+}
+
+.heading-1 {
+    font-size: 48px
+}
+
+.heading-3 {
+    font-size: 40px
+}
+
+.txt-4 {
+    font-size: 28px
+}
+
+.txt-sec-4 {
+    font-size: 42px
+}
+
+.txt-5 {
+    font-size: 18px
+}
+
+.text-gray {
+    color: var(--gray-text)
+}
+
+.bg-gray {
+    background-color: var(--gray-text)
+}
+
+.section-1 {
+    background-image: url(images/img-1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    height: 100%
+}
+
+.section-2 {
+    padding: 156px 0
+}
+
+.section-3 {
+    padding: 123px 130px
+}
+
+.text-sec-3 {
+    font-family: Inter, sans-serif;
+    font-size: 24px
+}
+
+.div-3-3 {
+    padding: 100px 0 120px 0
+}
+
+.section-4 {
+    background-image: url(images/img-9.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 0;
+    max-height: 100%
+}
+
+.img-1 {
+    height: 57%
+}
+
+.img-2 {
+    max-width: 100%
+}
+
+.heading-2 {
+    font-size: 24px
+}
+
+.txt-sec-4 {
+    font-size: 42px;
+    text-align: center
+}
+
+.section-4 {
+    padding: 175px 54px 167px 53px
+}
+
+.footer-h {
+    font-size: 28px
+}
+
+.footer-det {
+    padding-top: 64px;
+    padding-bottom: 30px;
+    padding-left: 65px;
+    padding-right: 60px
+}
+
+
+.sidebar {
+    background: #fff !important;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden
+}
+
+.sidebar {
+    transition: all .3s ease-in-out
+}
+
+svg {
+    width: 44px;
+    height: 44px;
+    padding: 9px 0
+}
+
+header {
+    padding: 30px 0
+}
+
+nav {
+    justify-content: space-between
+}
+
+.nav-item a {
+    font-size: 18px !important
+}
+
+.btn-1,
+.btn-2 {
+    font-size: 14px;
+    padding: 12px 22px
+}
+
+.btn-1:hover {
+    background-color: #298c85ad
+}
+
+:root {
+    --primary-color: #298C85;
+    --text-normal: 18px
+}
+
+.bg-main {
+    background-color: var(--primary-color)
+}
+
+.regular-font {
+    font-size: var(--text-normal)
+}
+
+@media screen and (max-width:992px) {
+    header {
+        padding: 20px 0
+    }
+}
+
+@media screen and (max-width:768px) {
+    .navbar-main {
+        padding: 20px !important
+    }
+}
+
+@media screen and (max-width:992px) {
+    header .navbar>.container-fluid {
+        justify-content: right
+    }
+
+    header {
+        padding: 20px 0
+    }
+
+    .section-3 {
+        text-align: center
+    }
+
+    .section-1 {
+        padding: 120px 20px 120px !important
+    }
+
+    .heading-1 {
+        font-size: 38px
+    }
+
+    .section-2 {
+        padding: 100px 50px
+    }
+
+    footer .black-txt {
+        padding: 26px 0
+    }
+
+    .footer-det .col-lg-3 {
+        padding: 10px 0
+    }
+
+    .txt-sec-4 {
+        font-size: 32px !important
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section-2 {
+        padding: 56px 20px
+    }
+
+    .section-1 {
+        padding: 50px 20px 50px !important
+    }
+
+    .heading-1 {
+        font-size: 38px
+    }
+
+    .section-4 {
+        padding: 50px 20px !important
+    }
+
+    body .section-2 .pb-4 {
+        padding-bottom: .5rem !important
+    }
+
+    .heading-2 {
+        font-size: 20px
+    }
+
+    .navbar-main {
+        padding: 20px !important
+    }
+
+    .section-3 .pt-5 {
+        padding: 0 !important
+    }
+
+    .txt-sec-4 {
+        font-size: 32px !important
+    }
+
+    .text-sec-3 {
+        font-size: 20px
+    }
+
+    footer .black-txt {
+        padding: 26px 0
+    }
+
+    .footer-det .col-lg-3 {
+        padding: 10px 0
+    }
+}
+
+@media screen and (max-width:576) {
+    .section-1 {
+        padding: 50px 20px 50px !important
+    }
+
+    .section-2 {
+        padding: 70px 40px !important
+    }
+
+    .heading-2 {
+        font-size: 20px
+    }
+
+    .footer-det .col-lg-3 {
+        padding: 10px 0
+    }
+
+    .section-3 {
+        padding: 20px 20px;
+        text-align: center
+    }
+
+    .txt-sec-4 {
+        font-size: 28px !important
+    }
+
+    .section-4 {
+        padding: 50px 20px !important
+    }
+}
+
+@media screen and (max-width:480px) {
+    .section-4 {
+        padding: 90px 30px
+    }
+
+    .section-4 p {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 0;
+        padding: 0 !important
+    }
+
+    .heading-1 {
+        font-size: 28px
+    }
+
+    .heading-s-1 {
+        font-size: 20px
+    }
+
+    .section-2 {
+        padding: 50px 20px !important
+    }
+
+    .heading-2 {
+        font-size: 20px
+    }
+
+    .heading-3 {
+        font-size: 30px
+    }
+
+    .section-2 .text-gray,
+    .txt-5 {
+        font-size: 16px
+    }
+
+    .txt-4 {
+        font-size: 20px
+    }
+
+    .section-2 span {
+        padding: 1.2rem !important
+    }
+
+    .img-2 {
+        padding-top: 15px
+    }
+
+    .footer-det {
+        padding: 30px 20px
+    }
+
+    .regular-font {
+        font-size: 16px
+    }
+
+    .footer-det .col-lg-3 {
+        padding: 10px 0
+    }
+}
